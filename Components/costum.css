@@ -1,0 +1,9 @@
+.correct{
+    background-color: rgba(0, 253, 0, 0.5);
+    border-color: rgb(0, 255, 0);
+}
+
+.wrong{
+    background-color: rgba(255, 0, 0, 0.5);
+    border-color: rgb(255, 0, 0, .5);
+}

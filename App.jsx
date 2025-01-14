@@ -112,12 +112,20 @@ const App = () => {
               <span className="font-semibold">{score}</span> of{" "}
               <span className="font-semibold">{data.length}</span>
             </h2>
-            <button
-              onClick={replay}
-              className="my-[2rem] bg-blue-900 hover:bg-blue-950 active:bg-blue-900 text-whiteColor rounded-md px-[50px] py-[10px] mb-[20px] mx-auto block"
-            >
-              Replay
-            </button>
+            <div className="btns flex mx-auto w-[70%]">
+              <button
+                onClick={replay}
+                className="my-[2rem] bg-blue-900 hover:bg-blue-950 active:bg-blue-900 text-whiteColor rounded-md px-[50px] py-[10px] mb-[20px] mx-auto block"
+              >
+                Replay
+              </button>
+              <button
+                onClick={``}
+                className="my-[2rem]  flex-row bg-blue-900 hover:bg-blue-950 active:bg-blue-900 text-whiteColor rounded-md px-[20px] py-[10px] mb-[20px] mx-auto block"
+              >
+                Another Level
+              </button>
+            </div>
           </>
         )}
       </div>
